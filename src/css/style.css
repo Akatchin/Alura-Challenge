@@ -1,0 +1,437 @@
+html{
+	scroll-behavior: smooth;
+	transition: 2s;
+}
+
+body {
+	margin: 0;
+	padding: auto;
+	background-color:#F5F5F5;
+	font-family: sans-serif;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+
+}
+
+
+.banner img {
+	width: 250px;
+	border-radius: 200px;
+	margin-right: 100px;
+
+}
+
+.introducao{
+	display: flex;
+	width: 100%;
+	padding: 0 0 30px 0;
+}
+
+.menu-apresentacao1 {
+	display: flex;
+	flex-direction: row;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: 80%;	
+	margin-left: 50px;
+}
+
+.menu-apresentacao {
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+	width: auto;
+}
+
+.menu {
+
+	display: flex;
+	width: 80%;
+	margin: 20px 40px 0 0;
+	justify-content: space-around;
+}
+
+.menu a {
+	color: inherit;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 22px;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+.myname{
+	
+	font-weight: bold;
+	font-size: 18px;
+	margin: 20px 0 0 45px;
+}
+
+.apresentacao {
+	margin-left: 40px;
+	margin-right: 20px;
+
+}
+
+.apresentacao h1 {
+	font-family: raleway;
+	font-size: 52px;
+	font-weight: 700px;
+}
+
+.apresentacao p {
+
+	font-size: 20px;
+
+}
+
+.menu-2{
+	margin: 10px 0 0 40px;
+}
+
+.menu-2 a {
+	margin-right: 40px;
+	color: inherit;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.menu-2 a img {
+	margin-left: 10px;
+}
+	
+
+.sobre-mim {
+	width: 100%;
+	background-color: #EAF2FD;
+	margin-top: 50px;
+}
+
+.sobre-mim-text {
+	padding: 50px 50px 50px;
+	font-family: raleway;
+}
+
+.sobre-mim-text p {
+	font-family: raleway;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.skills{
+	display: flex;
+	width: 100%;
+	height: 383px;
+	background-color: #F5F5F5;
+	flex-direction: column;
+}
+
+.h1-skills {
+
+	text-align: center;
+	padding: 20px 50px 20px 50px;
+
+}
+
+.skills-items {
+	display: flex;
+	justify-content: space-around;
+}
+
+.skill-icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 8px;
+	margin: 0 20px 0 20px;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+
+.skill-icon p{
+	margin: 0;
+	display: flex;
+	text-align: center;
+	font-weight: 19px;
+	font-family: raleway;
+}
+
+
+.hobbies {
+	display: flex;
+	width: 100%;
+	height: 383px;
+	background-color: #F5F5F5;
+	flex-direction: column;
+
+}
+
+.div-hobbies {
+	display: flex;
+	width: 100%;
+	background-color: #F5F5F5;
+	justify-content: center;
+	margin-bottom: 50px;
+
+}
+
+.h2-hobbies {
+	text-align: center;
+	padding: 20px 50px 20px 50px;
+
+}
+
+
+.hobbies-itens {
+
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.hobbie-icon {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 8px;
+	margin: 0 20px 0 20px;
+	width: 100px;
+	height: 100px;
+	background-color: #FFFFFF;
+}
+.hobbie-icon p{
+	margin: 0;
+	display: flex;
+	text-align: center;
+	font-weight: 19px;
+	font-family: raleway;
+}
+
+
+.hobbie-different {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 10px;
+	gap: 8px;
+	margin: 20px 40px 0 10px;
+	width: 30px;
+	height: 100px;
+}
+
+.formacao-academica h1 {
+	font-family: raleway;
+	margin: 100px 0 50px 0;
+	text-align: center;
+}
+
+.formacao-academica {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 581px;
+	background-color: #EAF2FD;
+	padding-bottom: 50px;
+}
+
+.certificado{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.certificado h2 {
+	margin: 3px 0 0 0;
+}
+
+.certificado p{
+	font-size: 18px;
+	font-family: raleway;
+	margin: 5px 0 0 0;
+}
+.certificados {
+	justify-content: space-around;
+	display: flex;
+	width: 100%;
+}
+
+.certificado-icon {
+	display: flex;
+	width: 80%;
+	height: 80%;
+}
+
+.certificado-alura-icon {
+	display: flex;
+	width: 100%;
+	height: 70%;
+}
+
+.experiencia-profissional {
+	width: 100%;
+	height: 100%px;
+	background-color: #F5F5F5;
+	padding-top: 10px;
+}
+
+.experiencia-profissional h1 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.experiencia-profissional h2 {
+	font-size: 22px;
+	margin: 0;
+}
+
+.projetos {
+	display: flex;
+	flex-direction: column;
+	margin: 0 100px 0 100px;
+}
+
+.codificador {
+	display: flex;
+	margin: 15px 0 15px 0;
+	align-items: center;
+}
+
+.flex-turismo {
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 15px 0 15px 0;
+	align-items: center;
+}
+
+.mini-portfolio {
+	display: flex;
+	margin: 15px 0 15px 0;
+	align-items: center;
+}
+.exp-section {
+	margin-right: 30px;
+	margin-left: 30px;	
+
+}
+
+.exp-section-02 {
+	margin-right: 30px;
+	margin-left: 30px;	
+}
+
+.exp-section-02 h1 {
+	margin-left: 115px;
+}
+
+.exp-section-btn {
+	margin-left: 155px;
+}
+
+.exp-section-03 {
+	margin-right: 30px;
+	margin-left: 30px;	
+}
+
+.exp-section-03 h1{
+	margin-right: 115px;
+}
+
+.btn-repositorio {
+	height: 40px;
+	background-color: #F5F5F5;
+	border: 1px solid #2A7AE4;
+	color: #2A7AE4;
+
+}
+
+.btn-demo{
+	height: 40px;
+	background-color: #2A7AE4;
+	border: 1px solid #2A7AE4;
+	color: #FFFFFF;
+	
+}
+
+.formulario{
+	display: flex;
+	width: 80%;
+	height: 788px;
+	padding: 10%;
+	background-color: #EAF2FD;
+}
+
+.campo-form{
+	flex-direction: column;
+	width: 100%;
+	margin-left: 20px;
+	padding: 30px 0 35px 0;
+}
+
+.contato-img{
+	height: 620px;
+	margin-top: 60px;
+}
+
+
+.form-titulo h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.form-titulo p{
+	font-size: 18x;
+	margin-top: 5px;
+}
+
+
+#formulario-name{
+	width: 90%;
+	height: 50px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+#formulario-email{
+	width: 90%;
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+#formulario-assunto{
+	width: 90%;
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+#formulario-mensagem{
+	width: 90%;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+#form-submit{
+	width: 200px;
+	height: 50px;
+	font-size: 14px;
+	background: #2A7AE4;
+	color: white;
+}
+
+.rodape div{
+	padding: 10px;
+	text-align: center;
+}
